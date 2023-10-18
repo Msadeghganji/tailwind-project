@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+    font-family: 'font';
+    font-weight: 100;
+    src: url(./statics/Estedad-Thin.woff2) format(woff2),
+        url(./ttf/Estedad-Thin.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 200;
+    src: url(./statics/Estedad-SemiBold.woff2) format(woff2),
+        url(./ttf/Estedad-SemiBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 300;
+    src: url(./statics/Estedad-Regular.woff2) format(woff2),
+        url(./ttf/Estedad-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 400;
+    src: url(./statics/Estedad-Medium.woff2) format(woff2),
+        url(./ttf/Estedad-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 500;
+    src: url(./statics/Estedad-Light.woff2) format(woff2),
+        url(./ttf/Estedad-Light.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 600;
+    src: url(./statics/Estedad-ExtraLight.woff2) format(woff2),
+        url(./ttf/Estedad-ExtraLight.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 700;
+    src: url(./statics/Estedad-ExtraBold.woff2) format(woff2),
+        url(./ttf/Estedad-ExtraBold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 800;
+    src: url(./statics/Estedad-Bold.woff2) format(woff2),
+        url(./ttf/Estedad-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'font';
+    font-weight: 900;
+    src: url(./statics/Estedad-Black.woff2) format(woff2),
+        url(./ttf/Estedad-Black.ttf) format(truetype);
+}
+
+@tailwind utilities;
