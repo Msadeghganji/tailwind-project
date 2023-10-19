@@ -64,4 +64,16 @@
         url(./ttf/Estedad-Black.ttf) format(truetype);
 }
 
+::-webkit-scrollbar {
+    width:0px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0px -1px 13px #F4F5F9;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbcbcb82;
+    border-radius: 10px;
+  }
+
 @tailwind utilities;

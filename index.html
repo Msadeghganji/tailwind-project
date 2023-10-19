@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="html">
+<html lang="en" id="html" class="">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body class="">
+<body class="overflow-hidden">
 
     <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
@@ -192,7 +192,7 @@
                 <!-- شروع هدر گوشی -->
                 <div id="header" dir="rtl">
 
-                    <div class="bg-[#FCFCFC] xl:hidden w-[95%] rounded-3xl mt-10 ml-6 mr-2 flex flex-col gap-3 px-5"
+                    <div class="bg-[#FCFCFC] dark:bg-[#212330] xl:hidden w-[95%] rounded-3xl mt-10 ml-6 mr-2 flex flex-col gap-3 px-5"
                         dir="ltr">
 
                         <div class="flex items-start justify-start gap-3 flex-col">
@@ -200,11 +200,11 @@
                             <button
                                 class="bg-blue-600 h-8 text-[0.875rem] w-24 text-white rounded-lg tracking-wider">Explore</button>
 
-                            <button class="h-8 text-[0.875rem] w-32 text-[#5B5D67] rounded-lg tracking-wider">Community
+                            <button class="h-8 text-[0.875rem] w-32 text-[#5B5D67] dark:text-[#BEC0C9] rounded-lg tracking-wider">Community
                                 post</button>
 
                             <button
-                                class="h-8 text-[0.875rem] w-16 text-[#5B5D67] rounded-lg tracking-wider pl-0">Pages</button>
+                                class="h-8 text-[0.875rem] w-16 text-[#5B5D67] dark:text-[#BEC0C9] rounded-lg tracking-wider pl-0">Pages</button>
 
                         </div>
 
@@ -223,7 +223,7 @@
                                     </svg>
                                 </div>
                                 <input type="text" id="input-group-1"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full pl-10 p-2.5 outline-none"
+                                    class="bg-gray-50 border border-gray-300 text-gray-900 dark:bg-[#212330] dark:border-[#7D8096] dark:text-[#7D8096] text-sm rounded-lg  block w-full pl-10 p-2.5 outline-none"
                                     placeholder="Search">
                             </div>
 
@@ -231,14 +231,14 @@
                                 <img src="image/User profile img 1.png" alt="">
 
                                 <div class="flex flex-col">
-                                    <select id="countries" class="bg-[#FCFCFC] outline-none">
+                                    <select id="countries" class="bg-[#FCFCFC] dark:bg-[#212330] dark:text-[#F0F1F5] outline-none">
                                         <option selected class="text-[1rem]">Chandan S</option>
                                         <option value="US">United States</option>
                                         <option value="CA">Canada</option>
                                         <option value="FR">France</option>
                                         <option value="DE">Germany</option>
                                     </select>
-                                    <label for="countries" class="text-[0.875rem] text-[#8C8F9F]">@uiuxchandan</label>
+                                    <label for="countries" class="text-[0.875rem] text-[#8C8F9F] dark:text-[#B3B6C4]">@uiuxchandan</label>
                                 </div>
 
                             </div>
@@ -423,13 +423,18 @@
                         <div id="father-storis" class="flex items-center flex-col">
                             <div
                                 class="w-20 h-20 rounded-full m-2 bg-[#E6EAFC] dark:bg-[#4D526D] flex justify-center items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                <svg id="StorySvg1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                                     fill="none">
                                     <path d="M8 16H24" stroke="#171923" stroke-width="2.38636" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                     <path d="M16 24V8" stroke="#171923" stroke-width="2.38636" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </svg>
+
+                                <svg id="StorySvg11" class="hidden" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                    <path d="M8 16H24" stroke="#F0F1F5" stroke-width="2.38636" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 24V8" stroke="#F0F1F5" stroke-width="2.38636" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
                             </div>
                             <span class="text-[#171923] dark:text-[#D7D9E3] text-[0.875rem]">Add Story</span>
                         </div>
